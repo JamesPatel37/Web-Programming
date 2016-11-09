@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CS320 Message Board</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+	
+	<h1>Message Board <small>CS320</small>
+		<p class="pull-right">
+			<a href="index.html" class="btn btn-success">View Posts</a>
+		</p>
+	</h1>
+	
+	<hr />
+		
+	<form action="WritePost.html" method="get">
+		
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8">
+				
+					<p class="lead">
+						<input name="postersName" type="text" class="form-control" placeholder="Enter Your Name">
+					<p>
+					<p class="lead">
+						<input name="postTitle" type="text" class="form-control" placeholder="Post Title">
+					<p>
+					<p class="lead">
+						<textarea name="postBody" placeholder="Message" class="form-control" rows="3"></textarea>
+					</p>			
+			</div>
+		</div>
+		
+		<div class="row text-center">
+			<div class="col-md-offset-2 col-md-2">
+				<img src="images/bean.png" alt="Mr. Bean" class="img-circle img-responsive" />
+				<input checked type="radio" name="image" value="bean.png" />
+			</div>
+			<div class="col-md-2">
+				<img src="images/clint.png" alt="Clint Eastwood" class="img-circle img-responsive" />
+				<input type="radio" name="image" value="clint.png" />			
+			</div>
+			<div class="col-md-2">
+				<img src="images/gaga.png" alt="Lady Gaga" class="img-circle img-responsive" />
+				<input type="radio" name="image" value="gaga.png" />
+			</div>
+			<div class="col-md-2">
+				<img src="images/hermoine.png" alt="Hermoine G." class="img-circle img-responsive" />
+				<input type="radio" name="image" value="hermoine.png" />
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-offset-2 col-md-2">
+				<img src="images/mj.png" alt="Mr. Bean" class="img-circle img-responsive" />
+				<input checked type="radio" name="image" value="bean.png" />
+			</div>
+			<div class="col-md-2">
+				<img src="images/joker.png" alt="Clint Eastwood" class="img-circle img-responsive" />
+				<input type="radio" name="image" value="clint.png" />			
+			</div>
+			<div class="col-md-2">
+				<img src="images/sheldon.png" alt="Lady Gaga" class="img-circle img-responsive" />
+				<input type="radio" name="image" value="gaga.png" />
+			</div>
+			<div class="col-md-2">
+				<img src="images/penny.png" alt="Hermoine G." class="img-circle img-responsive" />
+				<input type="radio" name="image" value="hermoine.png" />
+			</div>
+		</div>
+		
+		<p class="text-center">
+			<input class="btn btn-primary" type="submit" value="Post" />
+		</p>
+	
+	</form>
+	
+</div>
+
+</body>
+</html>
